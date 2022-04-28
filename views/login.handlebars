@@ -1,18 +1,33 @@
-<div id="login-container" class="login-container">
-    <div class="login-head">
-        <h2>
-            Welcome back!
-        </h2>
-    </div>
-    <div id="login-form" class="login-form">
-        <form>
-            <input type="text" name="username" id="username" class="form" placeholder="username"/>
-        </form>
-        <form>
-            <input type="text" name="password" id="password" class="form" placeholder="password"/>
-        </form>
-        <div class="btn">
-        <button type="submit" class="login-btn" id="password">Sign-in</button>
-        </div>
-    </div>
-</div>
+<form class="login-form">
+  <div>
+    <label for="email-login">email:</label>
+    <input type="text" id="email-login" />
+  </div>
+  <div>
+    <label for="password-login">password:</label>
+    <input type="password" id="password-login" />
+  </div>
+  <div>
+    <button type="submit">login</button>
+  </div>
+</form>
+
+<form class="signup-form">
+  <div>
+    <label for="username-signup">username:</label>
+    <input type="text" id="username-signup" />
+  </div>
+  <div>
+    <label for="email-signup">email:</label>
+    <input type="text" id="email-signup" />
+  </div>
+  <div>
+    <label for="password-signup">password:</label>
+    <input type="password" id="password-signup" />
+  </div>
+  <div>
+    <button type="submit">signup</button>
+  </div>
+</form>
+
+<script src="/javascript/login.js"></script>

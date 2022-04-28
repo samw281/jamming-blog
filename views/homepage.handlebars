@@ -1,0 +1,35 @@
+{{#if loggedIn}}
+<ul class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post }}
+  </li>
+  {{/each}}
+</ul>
+{{else}}
+<div id="carouselExampleSlidesOnly" class="carousel slide relative" data-bs-ride="carousel">
+  <div class="carousel-inner relative w-full overflow-hidden">
+    <div class="carousel-item active relative float-left w-full">
+      <img
+        src="/images/image1.jpeg"
+        class="block w-full"
+        alt="Wild Landscape"
+      />
+    </div>
+    <div class="carousel-item relative float-left w-full">
+      <img
+        src="/images/image2.webp"
+        class="block w-full"
+        alt="Camera"
+      />
+    </div>
+    <div class="carousel-item relative float-left w-full">
+      <img
+        src="/images/image3.jpg"
+        class="block w-full"
+        alt="Exotic Fruits"
+      />
+    </div>
+  </div>
+</div>
+{{/if}}
