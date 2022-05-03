@@ -314,8 +314,11 @@
     height: 65%;
     width: 65%;
     margin: auto;
+    box-shadow: 2px 5px 5px 0 black;
+
   }
 
+  
   #logout {
     color: var(--primary)
   }
