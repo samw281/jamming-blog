@@ -30,7 +30,9 @@
 
   ## Installation
 
-  Currently deployment via Heroku and running node index.js in the CLI from the root of the file.
+  Currently deployment via Heroku and running node server.js or npm start in the CLI from the root of the file.
+  
+  https://obscure-sierra-56263.herokuapp.com/
 
   ## Usage
   Once adding a login and logging in the user may view all of the blog posts on the Jamming Blog website. The may add comments to those posts or they may go and add a new blog post or else edit their posts and comments. 
