@@ -15,6 +15,7 @@ class Post extends Model {
           "id",
           "post_url",
           "title",
+          "text",
           "created_at",
           [
             sequelize.literal(
@@ -58,7 +59,7 @@ Post.init(
     },
     post_url: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
       validate: {
         isURL: true,
       },
