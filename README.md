@@ -1,6 +1,8 @@
 
   # Jamming Blog
-
+  ## Link to App deployed via Heroku
+  [Jamming Blog](https://obscure-sierra-56263.herokuapp.com/)
+  
   # Table of Contents
 
   1. [Description](#Description)
